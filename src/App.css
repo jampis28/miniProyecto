@@ -1,0 +1,58 @@
+.Tarjeta {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  border: 0;
+}
+.card {
+  outline: solid 0px blue;
+  transition: outline 0.3s double;
+  margin: 0.5rem;
+}
+.card:hover {
+  outline-width: 5px;
+}
+#informacion {
+  margin-top: 70px;
+  padding: 0;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+#stay {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-left: 25px;
+  text-align: left;
+  width: 1000px;
+  height: 29px;
+  line-height: 29.26px;
+}
+#stay2 {
+    line-height: 17.07px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-right: 35px;
+  text-align: right;
+  width: 500px;
+  height: 17px;
+}
+#ResultCont{
+  margin-left: 25px;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
+#Result{
+
+  font-family: "Montserrat";
+  font-size: 24px;
+}

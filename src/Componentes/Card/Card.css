@@ -1,0 +1,71 @@
+.card {
+  font-weight: 200;
+  width: 395px;
+  height: 269px;
+  border: none;
+  margin: 25px;
+  border: var(--bs-card-border-width) var(--bs-card-border-color);
+}
+.card-img-top {
+  width: 395px;
+  height: 269px;
+  border-radius: 24px;
+}
+#active {
+  border: #4f4f4f solid 1px;
+  border-width: 1px;
+  width: 120px;
+  height: 28px;
+  border-radius: 12px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 12px; 
+  font-weight: 700;
+  color: #4f4f4f;
+}
+#tipos2 {
+  display: inline-block;
+  width: 300px;
+  height: 28px;
+  margin-left: 0px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  color: #828282;
+  line-height: 2.10;
+}
+#tipos {
+  display: flex;
+}
+.card-text {
+  display: flex;
+}
+#rating {
+  display: flex;
+}
+#rating2 {
+  display: flex;
+  margin-left: 15px;
+}
+#rating3{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #4F4F4F;
+
+}
+.material-symbols-outlined {
+  color: #eb5757;
+  border-color: #eb5757;
+}
+.card-title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  align-items: right;
+  line-height: 19.5px;
+  color: #333333;
+}
