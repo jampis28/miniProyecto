@@ -83,7 +83,7 @@ function App() {
   return (
     <>
       <Navd
-        imag="./src/img/logo.png"
+        imag="/img/logo.png"
 
         fnBtn={handlebtnSearchChange}
       ></Navd>
