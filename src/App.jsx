@@ -4,6 +4,7 @@ import Card from "./Componentes/Card/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navd from "./Componentes/Nav/Nav";
 import Modalg from "./Componentes/Modal/Modalg";
+import imagen from '../public/imagen/logo.svg'
 function App() {
   // La variable data es la que va a almacenar los datos de "stays.json" y setData nos ayudará a guardar esos datos en esa variable. Es necesario que inicialicemos esa variable como un array vacío para evitar errores.
   const [data, setData] = useState([]);
@@ -83,7 +84,7 @@ function App() {
   return (
     <>
       <Navd
-        imag="/img/logo.png"
+        imag={imagen}
 
         fnBtn={handlebtnSearchChange}
       ></Navd>
